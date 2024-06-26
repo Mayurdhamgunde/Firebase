@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+input{
+    margin: 10px;
+    padding: 8px;
+    width: 94%;
+}
+label{
+    padding: 8px;
+    font-size: large;
+}
+button{
+    margin: 15px;
+    padding: 9px;
+    width: 100px;
+    position: relative;
+    top: 12px;
+    background-color: rgb(135, 242, 116);
+    border-radius: 7px;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: transparent;
+}
+button:hover{
+    background-color: lime;
+}
+.save-btn{
+    width: 117px;
+}
+.read-btn{
+    width: 117px;
+}

@@ -1,0 +1,17 @@
+.auth-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    margin: auto ;
+    padding: 4vw;
+    margin-top: 230px;
+    border: none;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    width: 6rem;
+    cursor: pointer;
+}

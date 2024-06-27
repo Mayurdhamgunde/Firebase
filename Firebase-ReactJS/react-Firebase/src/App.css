@@ -1,0 +1,48 @@
+body{
+  background-color: black;
+  color: white;
+
+}
+
+.App-header{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  padding: 5px;
+  font-size: medium;
+  margin: 11px;
+  width: 20rem;
+}
+.btn{
+  width: 6rem;
+  padding: 0.3rem;
+  font-size: medium;
+  font-family: cursive;
+  margin: 0.8rem;
+  font-weight: bold;
+  color: white;
+  background-color: lightsalmon;
+  border-radius: 6px;
+  border: transparent;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: salmon;
+  color: black;
+}
+.btn-container{
+  display: flex;
+  margin-top: 15px;
+}
+.btn-update{
+  width:8rem ;
+}
+
+.shw-p{
+  font-size: large;
+}
